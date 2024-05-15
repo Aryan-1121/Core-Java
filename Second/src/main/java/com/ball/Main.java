@@ -11,7 +11,9 @@ public class Main {
 
 //        Filter the list of names start with alphabet 'A'
 
-        List<String> newList  = list.stream().filter(element -> element.charAt(0)== 'A').collect(Collectors.toList());
+//        List<String> newList  = list.stream().filter(element -> element.charAt(0)== 'A').collect(Collectors.toList());
+    // no need of collect(Collectors.toList()) -> direct toList
+        List<String> newList  = list.stream().filter(element -> element.charAt(0)== 'A').toList();
 
         System.out.println(newList);
 
