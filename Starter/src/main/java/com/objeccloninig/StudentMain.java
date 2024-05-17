@@ -5,11 +5,11 @@ package com.objeccloninig;
 
 public class StudentMain {
     public static void main(String[] args) {
-        Student student = new Student(2, "hero");
-        Student s2 =(Student)student.clone();
+        Student s1 = new Student(2, "hero");
+        Student s2 =(Student)s1.clone();
 
-        System.out.println(student);
-        System.out.println(student.getRoll() +"   "+ student.getName());
+        System.out.println(s1);
+        System.out.println(s1.getRoll() +"   "+ s1.getName());
         System.out.println(s2);
         System.out.println(s2.getRoll() +"   "+ s2.getName());
     }

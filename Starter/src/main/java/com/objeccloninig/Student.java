@@ -1,6 +1,6 @@
 package com.objeccloninig;
 //implement clonable
-//wirte a clone method of return type object which returns super.clone();
+//wirte a clone method of return type object which returns super.clone();  => clone from object class
 
 public class Student implements  Cloneable{
     private int roll;

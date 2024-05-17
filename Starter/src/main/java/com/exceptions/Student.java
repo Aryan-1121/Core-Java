@@ -6,7 +6,7 @@ public class Student {
             System.out.println("hellot form try ");
             return 50/0;
         }catch (Exception e ){
-            System.out.println(e);
+            System.out.println("yoo "+e);
             return -1;
         }
         finally {

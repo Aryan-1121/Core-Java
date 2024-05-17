@@ -2,7 +2,7 @@ package com.exceptions.customexception;
 
 public class Driver {
     public static void main(String[] args) {
-        int speed =950;
+        int speed =10;
 
         try{
             if(speed > 60){
