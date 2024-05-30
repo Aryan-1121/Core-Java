@@ -12,7 +12,12 @@ public class Child1 extends First{
     }
 
 Child1(){
+        this(3);
     System.out.println("const from child 1  ");
+}
+
+Child1(int a){
+    System.out.println("parameterized constructor from child1 class with value of a ="+ a);
 }
 
     {
