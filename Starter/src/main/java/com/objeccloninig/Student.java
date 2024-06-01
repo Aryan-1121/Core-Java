@@ -2,6 +2,9 @@ package com.objeccloninig;
 //implement clonable
 //wirte a clone method of return type object which returns super.clone();  => clone from object class
 
+
+
+//Clonable interface is a marker interface it doesn't contain clone method (Object class contains clone method) , this Marker interface just tells JVM that it is legal to clone this class
 public class Student implements  Cloneable{
     private int roll;
     private  String name ;
