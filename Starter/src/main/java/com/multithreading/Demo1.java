@@ -8,7 +8,7 @@ class DemoRunnable implements Runnable{
 
     @Override
     public void run(){
-        System.out.println("this is Demo runnable = "+ Thread.currentThread().getName());
+        System.out.println("this is DemoRunnable = "+ Thread.currentThread().getName());
     }
 }
 class DemoThread extends Thread{

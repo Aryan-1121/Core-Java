@@ -14,4 +14,11 @@ public class Student {
 //            return 3;
         }
     }
+
+    //we can not directly use throw without throws ( bcs throws tells this method may throw an exception)
+    public int get5() throws Exception {
+
+//        throw new Exception("================== EXCEPTION OCCURED ==========");
+        return 5;
+    }
 }
