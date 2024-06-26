@@ -1,7 +1,7 @@
 package com.objeccloninig;
 
-//no need to create object with new keyword => we can create new object with just reference clone() will take care of creting new obj
-//use typeConversion in which you want to clone and call the clone method you wrote in that class asigning it to the new refernce variable in which you want to create a clone
+//no need to create object with new keyword => we can create new object with just reference clone() will take care of creating new obj
+//use typeConversion in which you want to clone and call the clone method you wrote in that class assigning it to the new reference variable in which you want to create a clone
 
 public class StudentMain {
     public static void main(String[] args) {
