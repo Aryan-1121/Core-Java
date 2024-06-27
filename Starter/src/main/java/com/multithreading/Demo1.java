@@ -1,22 +1,14 @@
 package com.multithreading;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.stream.Stream;
-
 class DemoRunnable implements Runnable{
-
     @Override
     public void run(){
         System.out.println("this is DemoRunnable = "+ Thread.currentThread().getName());
     }
 }
 class DemoThread extends Thread{
-
-
     @Override
     public void run(){
-
         System.out.println("this is demoThread - > "+ Thread.currentThread().getName());
     }
 }
@@ -29,8 +21,8 @@ public class Demo1 {
 
 
         DemoRunnable demoRunnable = new DemoRunnable();
-        Thread t1 = new Thread(demoRunnable);
-        t1.start();
+        Thread runnableThread = new Thread(demoRunnable);
+        runnableThread.start();
 
 
     }

@@ -14,7 +14,12 @@ public class Main {
         map.put(4,"supermao");
         map.put(1,"batmman");
 
-        System.out.println(map.get(3));
+
+        System.out.println(map);
+        for(int key : map.keySet()){
+            System.out.println(key+ "  "+ map.get(key));
+        }
+//        System.out.println(map.get(3));
 
     }
 }

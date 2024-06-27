@@ -13,15 +13,15 @@ public class Main {
 //        System.out.println( scc.display());
 
 
-//        ANONYNMOUS OBJ ->
+//    //    ANONYNMOUS OBJ ->
 //        AnonymousFactorial anonymousFactorial = new AnonymousFactorial();
 //        int fact =anonymousFactorial.factorial(5);
 //        System.out.println(fact);
-//
+////
 //        int fact2 = new AnonymousFactorial().factorial(4);
 //        System.out.println(fact2);
 
-//        COMPYING VALUE FROM CONSTRUCTOR
+//      //  COMPYING VALUE FROM CONSTRUCTOR
 //
 //        SecondClass secondClass = new SecondClass(5);
 //        SecondClass secondClass1 = new SecondClass();
@@ -33,8 +33,8 @@ public class Main {
 
 
 //          THIS KEYWORD : refer to current class obj/instance
-        SecondClass secondClass = new SecondClass();
-        System.out.println(secondClass);
+//        SecondClass secondClass = new SecondClass();
+//        System.out.println(secondClass);
 
 
 

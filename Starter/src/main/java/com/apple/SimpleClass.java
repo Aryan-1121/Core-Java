@@ -13,12 +13,12 @@ public class SimpleClass {
         this.a = a;
     }
 
-    public String getaNmae() {
+    public String getaName() {
         return aName;
     }
 
-    public void setaNmae(String aNmae) {
-        this.aName = aNmae;
+    public void setaName(String aName) {
+        this.aName = aName;
     }
 
     protected String getValue(){
